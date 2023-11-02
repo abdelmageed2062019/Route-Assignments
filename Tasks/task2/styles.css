@@ -1,0 +1,204 @@
+/* universal selector * */
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+   }
+   
+   
+   /* global style */
+   
+   body {
+     margin: 0;
+   }
+   
+   a {
+     text-decoration: none;
+   }
+   
+   .container {
+     width: 80%;
+     margin: auto;
+   }
+
+
+   /* navbar */
+  .navbar-parent {
+     background-color: black;
+   }
+   
+   .navbar {
+     overflow: auto;
+   }
+   
+   .navbar img {
+     float: left;
+     width: 75px;
+     padding: 20px;
+   
+   }
+   
+   .navbar ul {
+     float: right;
+   }
+   
+   .navbar ul li {
+     display: inline-block;
+     list-style: none;
+     padding: 20px;
+   }
+   
+   .navbar a {
+     color: white;
+     text-transform: capitalize;
+   }
+   
+   /* home section */
+.home {
+     background-image: url(images/need-for-speed-background.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     overflow: auto;
+   }
+   
+.home-content {
+     text-align: center;   
+     margin-top: 200px;
+     color: white;
+}
+
+   
+
+.home p {
+     font-family: 'Dancing Script', cursive;
+     font-size: 40px;
+     margin: 80px 0;
+   }
+   
+   .home button {
+     border: 0;
+     padding: 15px 30px;
+   }
+   
+   .home .learn-more {
+     background: hsla(0, 96%, 28%, 1);
+
+     background: linear-gradient(90deg, hsla(0, 96%, 28%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+     
+     background: -moz-linear-gradient(90deg, hsla(0, 96%, 28%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+     
+     background: -webkit-linear-gradient(90deg, hsla(0, 96%, 28%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+     
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8A0303", endColorstr="#FFFFFF", GradientType=1 );
+   }
+   
+   .home .visit {
+     background-color: #fff;
+   }
+
+   /* fixed section */
+  .fixed {
+    height: 300px;
+    background-image: url(images/background-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+  }
+  /* about section */
+.about-wrapper {
+  background-color: #eee;
+}
+
+.about {
+
+  overflow: auto;
+
+
+}
+
+.about-img {
+
+  width: 40%;
+  float: left;
+}
+
+.about-img img {
+  width: 90%;
+}
+
+.about-description {
+
+  width: 60%;
+  float: right;
+  margin-top: 200px;
+  text-align: center;
+
+}
+
+.about-description h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #f2ce08;
+}
+
+.about-description button {
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 15px 30px;
+
+}
+
+   
+/* cars section */
+.cars {
+  padding-top: 100px;
+  overflow: auto;
+}
+
+.car,
+.car2 {
+  width: 25%;
+  text-align: center;
+  float: left;
+  margin-top: 100px;
+}
+
+.car img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.border {
+  width: 40px;
+  height: 2px;
+  background-color: teal;
+  margin: auto;
+
+}
+
+
+.car2 img {
+  width: 100%;
+}
+
+
+.car2 {
+  width: 25%;
+  text-align: center;
+  float: left; 
+  padding: 0 20px;
+}
+
+
+.car h3,
+.car2 h3{
+  margin: 20px 0;
+}
+
+
+.car p,
+.car2 p {
+  margin-top: 20px;
+}

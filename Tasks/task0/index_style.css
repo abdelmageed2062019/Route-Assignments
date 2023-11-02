@@ -1,0 +1,105 @@
+/*General Styles*/
+
+* {
+     box-sizing: border-box;
+     font-size: 0;
+     margin: 0;
+}
+
+h1,h2,h3,h4,p {
+     font-size: 16px;
+     padding: 20px 10px;
+}
+
+img {
+     width: 100%;
+}
+
+.header {
+     text-align: center;
+}
+
+
+/*option1*/
+
+.solution1 {
+     width: 33.3%;
+     display: inline-block;
+     text-align: center;
+     padding: 20px;
+}
+
+.solution1 button {
+     font-size: 17px;
+     background-color: black;
+     border: 0;
+     color: #fff;
+     padding: 10px 20px;
+}
+
+
+
+.second-section {
+     text-align: center;
+     margin-top: 20px;
+}
+
+.second-section img {
+     width: 90px;
+     height: 90px;
+     border-radius: 50%;
+}
+
+.second-section p {
+     margin: 20px 0;
+     font-size: 17px;
+}
+
+.second-section button {
+     font-size: 17px;
+     background-color: black;
+     border: 0;
+     border-radius: 30px;
+     color: #fff;
+     padding: 10px 20px;
+}
+
+
+
+/*option2*/
+
+
+.solution2 {
+     width: 33.3%;
+     float: left;
+     text-align: center;
+     padding: 20px;
+}
+
+
+/*option3*/
+
+
+
+.solution3 {
+     width: 33.3%;
+     display: inline-block;
+     margin-right: -4px;
+     text-align: center;
+     padding: 20px;
+}
+
+
+/*option4*/
+
+.container { 
+     display: flex;
+     text-align: center;
+}
+
+.container .solution4{
+     width: 33.3%;
+     text-align: center;
+     padding: 20px;
+}
+

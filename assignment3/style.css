@@ -1,0 +1,391 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&display=swap');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Alegreya Sans', sans-serif; 
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 76px;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+p {
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.8; 
+}
+
+img {
+    width: 100%;
+}
+ 
+/**/
+
+.wrapper {
+    overflow: hidden;
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+.txt-align {
+    text-align: center;
+}
+
+/* Home Section */
+
+.home {
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+}
+
+.home .navbar {
+    height: 80px;
+}
+
+ .home .navbar  .logo {
+    float: left;
+}
+
+.home .navbar .logo img {
+    padding-top: 20px;
+    width: 150px;
+}
+
+.home .navbar  .links {
+    float: right;
+}
+ 
+.home .navbar  .links li {
+    float: left;
+    padding: 20px;
+}
+
+.home .navbar .links .active {
+    border-top: 3px solid #ae9768;
+}
+
+.home .navbar  .links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.home-content h1 {
+    margin-bottom: 18px;   
+    color: #fff;
+    font-family: 'Alegreya', serif;
+}
+
+.home-content p {
+    color: rgba(255,255,255, .92);
+    margin: 0 auto;
+    width: 85%;
+    font-size: 24px; 
+    font-weight: 100;
+}
+
+.home-content button {
+    width: 130px;
+    height: 62px;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+
+.learn-btn {
+    background-color: #8e7754;
+    border: 0;
+}
+
+.contact-btn {
+    background-color: transparent;
+    margin-left: 12px;
+    border: 2px solid #fff;
+}
+
+
+/* Who we Are Section */
+
+.who-we-are {
+    width: 100%;
+    padding: 50px 0;
+}
+
+
+.who-we-are-img {
+    width: 50%;
+    float: left;
+}
+
+
+.who-we-are-content {
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    margin: 50px 0;
+}
+
+.who-we-are-content p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #686868;
+}
+
+.list li {
+    padding: 10px;
+}
+
+.list {
+    text-align: left;
+}
+
+
+/* Our Location Section */
+
+.our-location {
+    width: 100%;
+    background-color: #F8F8F8;
+    padding: 90px 0;
+}
+
+.our-location-content {
+    width: 50%;
+    padding: 60px 0;
+    float: left;
+    text-align: start;
+}
+
+.our-location-content h2 {
+    color: #303030;
+    margin-bottom: 25px;
+}
+
+.paragraph1 {
+    margin-bottom: 20px;
+}
+
+
+
+.our-location-img {
+    width: 50%;
+    padding: 20px;
+    left: 30px;
+    float: left;
+}
+
+
+/* Our Backing Section */
+
+
+.baking .text-wrapper {
+    padding: 80px 0 30px 0 ;
+}
+
+.baking .text-wrapper h2 {
+    margin-bottom: 20px;
+}
+
+.baking h4 {
+ padding-top: 30px;
+ padding-bottom: 15px;
+}
+
+.baking .text-wrapper p {
+    color: #888;
+
+ }
+
+ .baking .card {
+    width: 33.3%;
+    float: left;
+    padding: 40px 20px;
+
+ }
+
+
+ /* Contact Info Section */
+
+ .contact {
+    background-color: #f8f8f8;
+    padding-top: 40px;
+}
+
+.contact-content {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.info {
+    text-align: start;
+    line-height: 30px;
+    color: rgb(104, 104, 104);
+}
+
+.info h2 {
+    color: black;
+    margin-bottom: 25px;
+}
+
+.lst {
+    color: rgb(104, 104, 104);
+}
+
+.lst p {
+    line-height: 31.62px;
+    margin-bottom: 30px;
+}
+
+.lst-header {
+    padding-top: 30px;
+}
+
+.lst li {
+    margin-top: 30px;
+}
+
+.map {
+    padding-top: 40px;
+}
+
+/* Blog Section */
+.footer {
+    background-color: #403D38;
+    padding: 40px;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #969696;
+}
+
+.about-us,
+.why-special,
+.opening-hours,
+.contact-details {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    padding-bottom: 120px;
+    color: rgb(150, 150, 150);
+    line-height: 25px;
+}
+
+.footer .contact-details {
+    position: relative;
+}
+
+.footer .contact-details::after  {
+    background-image: url(./images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    content: ".";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    opacity: 0.11;
+}
+
+.footer .contact-details a {
+    color: #969696;
+    text-decoration: none;
+}
+
+.footer li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+
+
+.footer li:not(:last-child) {
+    border-bottom: 0.8px solid rgb(150, 150, 150, 0.2);
+}
+
+/*Second Footer Section*/
+
+.footer-sec {
+    background: #353330;
+    max-width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.footer-sec p {
+    padding-top: 20px;
+}
+
+.footer-sec img {
+    width: 353px;
+}
