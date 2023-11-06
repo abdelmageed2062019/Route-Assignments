@@ -661,9 +661,27 @@ p {
   font-weight: 600;
 }
 
-.review-reating {
+.client  .review-reating {
   color: #f1c30d;
 }
+
+.client .swap-btn .off {
+  height: 10px;
+  width: 10px;
+  border: 1px solid #ff305b;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.client .swap-btn .on {
+  height: 10px;
+  width: 25px;
+  border: 1px solid #ff305b;
+  background-color: #ff305b;
+  border-radius: 20px;
+  text-align: center;
+}
+
 
 /* Blogs Section */
 .blogs {
