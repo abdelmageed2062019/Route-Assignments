@@ -1,0 +1,176 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Large devices */
+@media screen and (max-width: 1200px) {
+     nav .navbar-links {
+         padding: 0 10px;
+          -webkit-transform: translateX(100%);
+              -ms-transform: translateX(100%);
+                  transform: translateX(100%);
+          position: absolute;
+          z-index: 999;
+          width: 350px;
+          height: 100%;
+          background-color: #fff;
+          border-left: 2px solid #f1f1f1;
+          right: 0;
+          top: 0;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-transition: -webkit-transform 400ms;
+          transition: -webkit-transform 400ms;
+          -o-transition: transform 400ms;
+          transition: transform 400ms;
+          transition: transform 400ms, -webkit-transform 400ms;
+          -webkit-box-pack: start;
+              -ms-flex-pack: start;
+                  justify-content: start;
+          gap: 20px;
+     }
+
+     nav .navbar-links .close-icon {
+          display: block;
+          padding: 10px 15px 5px;
+     }
+
+     nav  .navbar-links a:not(.active):hover::before {
+          width: 0px;
+        }
+
+        nav .navbar-links  a:not(.active):hover::before {
+          width: 0px;
+        }
+      
+        nav .navbar-links  a {
+          width: 100%;
+          padding: 10px 10px;
+        }
+      
+        nav .navbar-links  a::before {
+          bottom: 2px;
+        }
+      
+        nav .menu-icon {
+          display: block;
+        }
+      
+        nav .mode {
+          margin-left: auto;
+          margin-right: 20px;
+        }
+
+  .container {
+    max-width: 970px;
+  }
+
+  .gallery .gallery-cards {
+    height: 55rem;
+  }
+
+  footer .container :is(.about, .contact-info) {
+    width: calc(calc(100% - 1.25rem * 2) / 2);
+  }
+
+  footer .container :is(.subscripe) {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+/* Medium devices */
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+
+  header .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  header .container > * {
+    width: 100%;
+    text-align: center;
+  }
+
+  header .container .buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+.chefs .chefs-cards .card {
+    width: calc(calc(100% - 1.25rem) / 2);
+  }
+
+
+  .gallery .gallery-cards {
+     height: 90rem;
+  }
+
+  .gallery .gallery-cards .card {
+     width: calc(calc(100% - 1.25rem) / 2);
+  }
+
+  .contact .input-half input {
+     width: 100%;
+  }
+}
+
+/* Small devices */
+@media screen and (max-width: 768px) {
+     .container {
+          max-width: 540px;
+      }
+
+      .chefs .chefs-cards .card {
+          width: 100%;
+        }
+
+        .gallery .gallery-cards {
+          height: auto;
+       }
+
+        .gallery .gallery-cards .card {
+          width:100%;
+       }
+
+       .contact .contact-details > div {
+          width: 100%;
+       }
+
+
+       .contact .input-half input {
+          width: 100%;
+       }
+
+       footer .container :is(.about, .contact-info) {
+          width: 100%;
+        }
+      
+        footer .container :is(.subscripe) {
+          width: 100%;
+          -webkit-box-ordinal-group: 1;
+              -ms-flex-order: 0;
+                  order: 0;
+        }
+
+}
+/* very devices */
+@media screen and (max-width: 300px) {
+     :root {
+       font-size: 12px;
+     }
+   }
